@@ -21,20 +21,20 @@ namespace Tyuiu.FamutdinovaJI.Sprint0.Task7.V0
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
             Console.WriteLine("***************************************************************************");
 
-            int[] arrayNums1 = new int[] { 1, 2, 3, 4, 5 };
+            int[] arrayNums1 = new int[] { 1, 2, 3, 4, 5};
             Console.WriteLine("Значение элементов массива №1");
             for (int i = 0; i < arrayNums1.Length; i++)
             {
-                Console.WriteLine(arrayNums1[i] + ", ");
+                Console.WriteLine(arrayNums1[i]+", ");
             }
 
             Console.WriteLine();
 
-            int[] arrayNums2 = new int[] { 1, 2, 3, 4, 5 };
+            int[] arrayNums2 = new int[] { 1, 2, 3, 4, 5};
             Console.WriteLine("Значение элементов массива №2");
             for (int i = 0; i < arrayNums2.Length; i++)
             {
-                Console.WriteLine(arrayNums2[i] + ", ");
+                Console.WriteLine(arrayNums2[i]+", ");
             }
 
             Console.WriteLine();
@@ -48,7 +48,7 @@ namespace Tyuiu.FamutdinovaJI.Sprint0.Task7.V0
                 Console.WriteLine("Сумма элементов массива равна:");
                 for (int i = 0; i < resultArray.Length;i++)
                 {
-                    Console.WriteLine(resultArray[i] + ", ");
+                    Console.WriteLine(resultArray[i]+", ");
                 }
             }
             else
